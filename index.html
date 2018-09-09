@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Word Guess Game</title>
+    <title>Psychic Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -13,26 +13,22 @@
 
 
     <body>
-        
-        <h1 style="color:blue" >Word Guess Game</h1> <!-- solo encabezado -->
-        <h2 style="color:blue" >Press any key to get started!</h2> <!-- solo encabezado -->
+            <h1 style="color:blue" >The Psychic Game</h1>                       <!-- solo encabezado -->
+            <h2 style="color:blue" >Guess what letter I'am Thinking of</h2>     <!-- solo encabezado -->
+            <hr>
 
-        <hr><br>
-
-        <p id="one" style="color:red"></p>  <!-- palabra a adivinar -->
-        <p id="tree" style="color:yellowgreen;"></p> <!-- palabra teclada -->
-        
-        <br><hr><br>
-        
-        
-        <p id="four" style="color:gray;"></p> <!-- esta en la palabra -->
-        <p id ="two"></p> <!-- numero de intentos fallidos restantes -->
-        <p id ="six"></p> <!-- palabra teclada -->
-        <p>Wins:</p>
-
+            <div>    
+                <p id="wins" >Wins:</p>
+                <p id="losses" >Losses:</p>
+                <p id="oportunities" >Guesses Left:</p>
+                <p id="guesses" >Your Guesses so far:</p>
+                
+            </div>
+            <hr><br>
 
         <script type="text/javascript" src="assets/javascript/game.js"></script>
 
+        
 
     </body>
 </html>
